@@ -11,6 +11,6 @@
     "eslint": "^4.17.0"
   },
   "scripts": {
-    "test": "eslint"
+    "test": "eslint \"**/*.js\""
   }
 }
