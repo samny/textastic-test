@@ -5,4 +5,11 @@ env:
 - NODE_ENV=TEST
 cache:
   directories:
-    - $HOME/.npm
+   - "node_modules"
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
