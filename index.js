@@ -1,2 +1,2 @@
-import app from 'app.js'
-app.init()
+import {init} from 'app.js'
+init()
