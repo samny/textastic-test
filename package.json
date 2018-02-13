@@ -1,0 +1,25 @@
+{
+  "name": "learn-travis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samny/textastic-test.git"
+  },
+  "description": "",
+  "author": "Samuel Nystedt",
+  "version": "1.0.0",
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  },
+  "scripts": {
+    "test": "eslint \"**/*.js\""
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  }
+}
