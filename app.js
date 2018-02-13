@@ -1,3 +1,3 @@
 export function init(){
-    alert('Hello there!')
+    confirm('Hello there from app.js!')
 }
