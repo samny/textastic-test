@@ -11,6 +11,6 @@
     "eslint": "^4.17.0"
   },
   "scripts": {
-    "test": "./node_modules/eslint/bin/eslint index.js"
+    "test": "eslint"
   }
 }
